@@ -7,4 +7,10 @@
 	$time = $mysql_date_time;
 	return $time;
 	}
+
+//Elastica function to autoload Elastica
+	function autoload_elastica()
+	{
+	require_once('../chiremba/application/elastica/vendor/autoload.php');
+	}
 ?>
