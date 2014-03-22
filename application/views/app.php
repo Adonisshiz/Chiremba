@@ -3,14 +3,20 @@
     <div class="row">
           <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 		  <div class="row">
-			<p align="center"><img src="<?php echo $base?>/client_side/images/body/diagnosis.jpg" class="img-circle"></p>
+			<p align="center"><img src="<?php echo $base?>/client_side/images/body/diagnosisd.jpg" class="img-circle"></p>
 		  </div>
 
-		  <?php echo form_open('marwadzoe/index'); ?>
+		  <div class="row">
+			<p align="center" class="h3 code">"Experiencing symptoms but not sure what they mean?
+												Use Chiremba to determine possible causes,
+								treatments, and book an appointment with a doctor."</p>
+		  </div>
+		  
+		  <?php echo form_open('home/index'); ?>
           <form role="form">
             <div class="form-group">
                 <div class="col-xs-8 col-md-8 col-lg-8 col-sm-8 align-center">
-                <input type="text" class="form-control" placeholder="e.g Ziso rangu riri kupfura neche kumusoro" name="question">
+                <input type="text" class="form-control" placeholder="enter symptoms, e.g nose running" name="question">
                 </div>
                 <br/>
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
